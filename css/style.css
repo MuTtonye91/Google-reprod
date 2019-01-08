@@ -14,16 +14,6 @@ nav {
 	justify-content: flex-end;
 	
 }
-.connexion {
-	display: inline-block;
-	line-height: 5px;
-	padding: 12px;
-	border: 1px solid #4285f4;
-	border-radius: 2px;
-	font-weight: bold;
-	background-color: #4285f4;
-	color: white;/*ca ne marche pas !!!!*/
-}
 
 li, footer li {
 	display: inline-flex;
@@ -50,6 +40,26 @@ a:hover {
 	height: 15px;
 	background-image: url(icon-appli.png);
 
+}
+
+/*personnalisation du bouton de connexion*/
+.connexion {
+	line-height: 5px;
+	padding: 12px;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	font-weight: bold;
+	background-color: #4285f4;
+	background: linear-gradient(top,#4387fd,#4683ea);
+}
+
+.connexion a{
+	text-decoration: none;
+	color:white;
+}
+
+.txt_c {
+	
 }
 
 /*Personnalisation du main content*/
