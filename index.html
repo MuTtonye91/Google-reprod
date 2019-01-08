@@ -2,7 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href=""/>
+		<link rel="stylesheet" href="css/style.css"/>
 		<link rel=icon href=images/favicon-google.png sizes="16x16" type="image/png">
 		<title>Google</title>
 	</head>
@@ -14,8 +14,8 @@
 			<nav>
 				<ul>
 					<li><a href="https://www.google.com/intl/fr/gmail/about/#">Gmail</a></li>
-					<li><a href="https://www.google.fr/imghp?hl=fr&tab=wi">Image</a></li>
-					<li><a href="#" title="Applications Google"><img src="images/icon-appli.png" id="icon-appli"/></a></li>
+					<li><a href="https://www.google.fr/imghp?hl=fr&tab=wi">Images</a></li>
+					<li class="icon-appli"><a href="#" title="Applications Google"></a></li>
 					<li><a href="https://accounts.google.com/signin">Connexion</a></li>
 				</ul>
 			</nav>
@@ -23,32 +23,28 @@
 		</header>
 
 		<!--conteneur global-->
-		<div> 
+		<div id="main-content"> 
 			<!--logo google-->
-			<div> 	
+			<p> 	
 				<img src="images/google-logo.png">
-			</div>
+			</p>
 			<!--moteur de recherche-->
-			<div> 
-				<form method="post" action="traitement.php">
-					<input type="search" />
-				</form>
-			</div>
-			<!--boutons recherche et j'ai de la chance-->
-			<div> 	
-				<button>Recherche Google</button>
-				<button>J'ai de la chance</button>
-			</div>
+			<form method="post" action="#">
+					<input type="text" title="Rechercher" class="searchbar"/>
+					<!--boutons recherche et j'ai de la chance-->
+					<input class="btn-search1" type="button" value="Recherche Google"/>
+					<input class="btn-search2" type="button" value="J'ai de la chance"/>
+			</form>
+			
 		</div>
 
 		<footer>
 			<!--1er conteneur-->
-			<div>
-				<p>France</p>
-			</div>
+			<p>France</p>
+			<hr>
 
 			<!--2eme conteneur-->
-			<div>
+			<div class="foot2">
 				<!--Left box-->
 				<div>
 					<ul>
@@ -61,7 +57,7 @@
 				<!--rigth box-->
 				<div>
 					<ul>
-						<li><a href="https://support.google.com">Info consimmateurs</a></li>
+						<li><a href="https://support.google.com">Info consommateurs</a></li>
 						<li><a href="https://policies.google.com/privacy?hl=fr&gl=fr">Confidentialité</a></li>
 						<li><a href="https://policies.google.com/terms?hl=fr&gl=fr">Conditions</a></li>
 						<li>Paramètres
