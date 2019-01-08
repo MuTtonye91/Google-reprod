@@ -5,14 +5,16 @@ body {
 	color: #222;
 }
 header {
-	height: 220px;
+	height: 180px;
 	width: 100%;
+	margin-top: 5px;
 }
+
+/*debut navbar du haut*/
 nav {
 
 	display: flex;
-	justify-content: flex-end;
-	
+	justify-content: flex-end;	
 }
 
 li, footer li {
@@ -23,7 +25,6 @@ li, footer li {
 	vertical-align: middle;
 }
 
-
 a {
 	text-decoration: none;
 }
@@ -31,6 +32,7 @@ a {
 a:visited {
 	color: black;
 }
+
 a:hover {
 	text-decoration: underline;
 }
@@ -41,7 +43,6 @@ a:hover {
 	background-image: url(icon-appli.png);
 
 }
-
 /*personnalisation du bouton de connexion*/
 .connexion {
 	line-height: 5px;
@@ -57,11 +58,7 @@ a:hover {
 	text-decoration: none;
 	color:white;
 }
-
-.txt_c {
-	
-}
-
+/*fin navbar du haut*/
 /*Personnalisation du main content*/
 
 #main-content {
@@ -71,7 +68,6 @@ a:hover {
 	height: 380px; 
 	
 }
-
 /*Personnalisation de la barre de recherche*/
 .searchbar {
 	width: 570px;
@@ -140,19 +136,19 @@ hr {
 
 footer p {
 	font-size: 1.2em;/*Ajout d'une taille au p*/
-	height: 10px;
+	line-height: 10px;
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 45px;
 }
+
 footer li {
 	margin-right: 10px;
+	padding-top: 15px;
 }
-footer p {
+
+footer li, a, p {
 	color:#757575;
-}
-footer li {
-	color:#757575; /* A REVOIR LA COULEUR NE MARCHE QUE SUR LA PUCE "Paramètre"*/
 }
 
 
